@@ -98,7 +98,7 @@ _up to 7 inverter ( pip1 pip2 and so on )_
 - **solpiplog/pip/status/set** with payload **uti**, **sol**, **sbu**, 
 payloads **aut**, **onl**, **eco** for KING inverter
 	for example: **solpiplog/pip/status/set uti** to change to grid
-- **solpiplog/pip/charger/set** with payload **0**, **1**, **2**, **3** for charger settings
+- **solpiplog/pip/charge/set** with payload **0**, **1**, **2**, **3** for charger settings
 - **solpiplog/pip/equalize/set** with payload **start** or **stop**
 for inverter supporting equalize.
 - **solpiplog/pip/timesource/set** and payload **on** or **off** 
